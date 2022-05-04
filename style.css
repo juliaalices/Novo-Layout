@@ -1,0 +1,848 @@
+* {
+  margin: 0;
+  padding: 0;
+  box-sizing: border-box;
+  font-family: sans-serif;
+}
+
+.header-title {
+  border-radius: 20px 20px 0 0;
+  padding: 8px 20px;
+  color: white;
+  text-align: center;
+  font-weight: bold;
+  margin-top: 15px;
+}
+
+.header-title.bg-blue {
+  background-color: #00538b;
+}
+
+.header-title.bg-orange {
+  background-color: #ff8c40;
+}
+
+.header-title.bg-yellow {
+  background-color: orange;
+}
+
+main {
+  max-width: 1140px;
+  margin: 0 auto;
+  padding: 30px 0;
+  font-size: 13px;
+}
+
+main .first-section {
+  display: flex;
+  width: 100%;
+  margin-bottom: 30px;
+}
+
+main .first-section > img {
+  margin-right: 90px;
+  object-fit: contain;
+  width: 350px;
+}
+main .first-section .container-info {
+  width: 100%;
+}
+main .first-section .container-info .header {
+  display: flex;
+}
+
+main .first-section .container-info .header .header-title {
+  width: 100%;
+}
+
+.bin .content {
+  display: block;
+}
+main .first-section .container-info .content {
+  display: flex;
+  background-color: #eeeeee;
+  border-radius: 0 0 20px 20px;
+  display: flex;
+  background-color: #eeeeee;
+  border-radius: 0 0 20px 20px;
+  width: 100%;
+}
+
+main .first-section .container-info .content > div {
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  width: calc(100% / 3);
+  padding-left: 40px;
+}
+
+main .first-section .container-info .content .placa h2 {
+  font-size: 20px;
+  text-transform: uppercase;
+  color: black;
+  margin-bottom: 5px;
+}
+
+main .first-section .container-info .content .placa p {
+  font-size: 20px;
+  text-transform: capitalize;
+  color: #00000090;
+  font-weight: 300;
+}
+
+main .first-section .container-info .content .user-info h2,
+main .first-section .container-info .content .user-info p {
+  font-size: 15px;
+  text-transform: capitalize;
+  color: #00000080;
+  font-weight: 300;
+}
+
+main .first-section .container-info .content .user-info h2 {
+  margin-bottom: 10px;
+}
+main .first-section .container-info .content .qr-code {
+  flex-direction: row;
+  align-items: center;
+  justify-content: start;
+}
+
+main .first-section .container-info .content .qr-code > div {
+  margin-right: 30px;
+}
+main .first-section .container-info .content .qr-code img {
+  width: 80px;
+  height: 80px;
+}
+
+main .resume > .header-title {
+  text-transform: capitalize;
+  width: 200px;
+}
+
+main .resume > .content {
+  display: flex;
+  background-color: white;
+  border: solid 1px #00000050;
+  padding: 10px 10px 20px;
+  gap: 10px;
+  border-radius: 0 20px 20px 20px;
+}
+
+.content .item .header-title.bg-yellow {
+  width: auto;
+}
+main .resume > .content .item > .header-title {
+  text-transform: capitalize;
+  padding: 15px 18px;
+}
+
+main .resume > .content .item > .content {
+  padding: 10px;
+  border: solid 1px #00000050;
+  border-radius: 0 0 10px 10px;
+  color: orange;
+  background-color: white;
+}
+
+main .bin > .header-title{
+  width: 200px;
+  text-transform: capitalize;
+}
+
+.information{
+  background-color: #eeeeee;
+  border-radius: 0px 20px 20px 20px;
+  padding: 10px 10px 10px 10px;
+}
+.cols {
+  display: flex;
+  gap: 10px;
+}
+.col {
+  flex: 1;
+}
+.rows {
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  gap: 10px;
+}
+.row {
+  display: flex;
+  gap: 10px;
+}
+.boxes, .boxes-item {
+  flex: 2;
+  background-color: white;
+  border-radius: 10px;
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+}
+.boxes-item {
+  padding: 10px;
+}
+.mini-boxes {
+  flex: 1;
+}
+.key-value-item .item-header {
+  padding: 10px;
+}
+.key-value-item .content, .model{
+  border-top: 2px solid #eeeeee;
+  border-top-left-radius: 5px;
+  border-top-right-radius: 5px;
+  padding: 10px;
+}
+.row .boxes.mini-boxes .item-header {
+  padding: 10px;
+}
+.national {
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  justify-content: center;
+  height: 55px;
+}
+.item-header {
+  font-weight: bold;
+}
+.content .content-info-first .content-info-first-col-1 .information .cols .col .rows .row .boxes-item .item-header {
+  font-weight: normal;
+}
+.content .content-info-first .content-info-first-col-1 .information .cols .col .rows .row .boxes-item .key-value-item .name-owner span {
+  font-weight: bold;
+}
+.national .icon {
+  font-size: x-large;
+  margin-bottom: 5px;
+}
+.comun-venda .information table tbody tr th {
+  font-weight: 12px;
+}
+.container-info-second {
+  display: flex;
+  justify-content: center;
+  padding: 20px;
+}
+.information .container-info-second table {
+  border: 2px solid white;
+  border-spacing:0;
+  width: 100%;
+}
+.information .container-info-second table td {
+  padding: 5px;
+  border-top: 2px solid white;
+  border-left: 2px solid white;
+}
+.information .container-info-second table td:first-child {
+  border-left: none;
+}
+.container-info-second table tbody tr:nth-child(odd){
+  background: #f5f5f5
+}
+.information .container-info-second table th {
+  padding: 5px;
+  font-weight: bold;
+}
+.information .container-info-second table td:nth-child(odd){
+  font-weight: bold;
+}
+.header-title {
+  width: fit-content;
+}
+
+.information table {
+  width: 100%;
+}
+.information table td {
+  padding: 10px;
+}
+.information table th {
+  text-align: left;
+}
+.highlight {
+  color: #ff8c40;
+  font-weight: bold;
+}
+.content-info .content-info-first-col-1 .information .cols {
+  display: flex;
+  justify-content: center;
+}
+.col {
+  flex: 1;
+}
+.information .cols .licenciamento {
+  margin-block: auto;
+}
+.licenciamento-info-first {
+  background-color: #00538b;
+  border-top-left-radius: 10px;
+  border-top-right-radius: 10px;
+  color: white;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+}
+.licenciamento-info-second {
+  background-color: white;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  font-size: medium;
+  font-weight: bold;
+}
+.licenciamento-info-third {
+  background-color: #00538b;
+  border-bottom-left-radius: 10px;
+  border-bottom-right-radius: 10px;
+  color: white;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+}
+.licenciamento-info-title {
+  padding: 10px;
+}
+.col-5 {
+  flex: 4.4;
+}
+
+.relevant .information table tr:nth-child(odd){
+  background: #f5f5f5;
+}
+.relevant .information table td:nth-of-type(even){
+  color: orange;
+  font-weight: bold;
+}
+.relevant .information table td:nth-of-type(odd){
+  font-weight: bold;
+}
+.decoder .information table tr:nth-child(odd){
+  background: #f5f5f5;
+}
+.decoder .information td:nth-of-type(odd){
+  font-weight: bold;
+}
+.decoder .information table tbody tr .highlights {
+  color: rgb(40, 158, 40);
+}
+
+.states-restricoes .information {
+  background-color: #ff000047;
+  color: #cf0000;
+}
+.table-fipe .information table thead, .table-molicar .information table thead {
+  font-weight: bold;
+}
+.highlights {
+  background-color: #f5f5f5;
+}
+.renajud-infos .information .content-info .content-info-first .cols .col .row {
+  padding: 5px;
+}
+.renajud-infos .information .content-info .content-info-first .cols .col .rows {
+  gap: 1px;
+}
+main .historicos-laudos .information table tbody tr td {
+  color: rgb(40, 158, 40);
+}
+.renajud-infos .information{
+  border-radius: 0 20px 0 0;;
+}
+.alert {
+  display: flex;
+  justify-content: center;
+  align-items: center;
+}
+.alert-item {
+  display: flex;
+  gap: 10px;
+}
+.alerts {
+  display: flex;
+  flex-direction: column-reverse;
+  margin-bottom: 30px;
+}
+.alert-content {
+  --min-height-element: 30px;
+  position: relative;
+  width: 100%;
+  border-radius: 0 0 20px 20px;
+  font-weight: bold;
+  padding: 0 30px;
+  padding-top: var(--min-height-element);
+  min-height: calc(var(--min-height-element) * 2);
+ 
+  color: white;
+
+  margin-bottom: calc(var(--min-height-element) * -1);
+}
+.alert-content:last-child {
+  position: relative;
+}
+.alert-content::before {
+  --min-height-element: 30px;
+  --background-color-that-will-make-the-effect-transparent:    #eeeeee;;
+  content: "";
+  position: absolute;
+  background-color: var(
+    --background-color-that-will-make-the-effect-transparent
+  );
+  top: 0;
+  left: 0;
+  right: 0;
+  min-height: var(--min-height-element);
+  width: 100%;
+  border-radius: 0 0 20px 20px;
+  margin-top: 0px;
+}
+.alert-content.yellow {
+  background-color: orange;
+  display: flex;
+  align-items: center;
+  font-size: medium;
+}
+.alert-content.orange {
+  background-color: #ff8c40;
+}
+.alert-content.blue {
+  background-color: #00538b;
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  gap: 20px;
+  padding-top: 35px;
+  padding-bottom: 5px;
+}
+.alert-item {
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  padding: 10px;
+}
+.results {
+  background-color: white;
+  color: rgb(40, 158, 40);
+  border-radius: 10px;
+  padding: 7px 15px;
+}
+.relevant .information {
+  border-radius: 0px 10px 10px 10px;
+  padding: 10px;
+}
+.renajud-rest .information table tr:nth-child(odd){
+  background: #f5f5f5;
+}
+.renajud-rest .information table tr:nth-of-type(even){
+  color:rgb(40, 158, 40);
+}
+.renajud-rest .information table tr:nth-of-type(odd){
+  font-weight: bold;
+}
+.renajud-secundario .information table td:nth-of-type(odd){
+  font-weight: bold;
+}
+.renajud-secundario .information table tr:nth-child(odd){
+  background: #f5f5f5;
+}
+.renajud-rest .information table {
+  padding-bottom: 10px;
+}
+.comun-venda .information table tr:nth-child(odd){
+  background: #f5f5f5;
+}
+.comun-venda .information table tr:nth-of-type(even){
+  color:rgb(40, 158, 40);
+}
+.comun-venda .information table tbody tr th {
+  font-weight:bold ;
+}
+.comun-venda .information table tbody tr .rightlights {
+  font-weight: normal;
+}
+th {
+  padding: 10px;
+  font-weight: normal;
+}
+.recall .information table tr:nth-child(even){
+  background: #f5f5f5;
+  font-size: 12px;
+}
+.recall .information table tr:nth-child(odd){
+  color:rgb(40, 158, 40);
+}
+.ssp .information, .sinistro-hist .information, .oferta-i .information, .oferta-ii 
+.information, .leilao-copor .information table, .analise-tec .information table:nth-of-type(odd){
+  color:rgb(40, 158, 40);
+}
+.sinistro-online .information {
+  background-color: rgba(255, 0, 0, 0.253);
+  color: red;
+}
+.leilao-copor .information, .analise-tec .information {
+  border-radius: 0px 20px 0px 0px;
+}
+.footer {
+  background-color: orange;
+  border-radius: 0px 0px 20px 20px;
+}
+.leilao-copor .footer, .analise-tec .footer {
+  padding: 10px;
+  text-align: justify;
+  font-size: 12px;
+}
+
+.content {
+  display: flex;
+}
+.container-numbers {
+  background-color: #00538b;
+  color: white;
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  align-items: center;
+  padding: 10px 50px 20px 20px;
+  border-radius: 0 0 20px 20px;
+}
+.number {
+  font-weight: bold;
+  font-size: xx-large;
+  padding-bottom: 10px;
+}
+.container-content-remarketing {
+  background-color: white;
+  display: flex;
+  margin-left: -30px;
+  border-radius: 20px;
+  gap: 20px;
+  padding: 15px;
+  align-items: center;
+  width: 100%;
+  border: 2px solid #eee;
+}
+.info {
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  align-items: center;
+  border-radius: 15px;
+  background-color: #eee;
+}
+.main-element {
+  font-weight: bold;
+  padding: 10px;
+  text-transform: uppercase;
+}
+.sub-element {
+  padding: 15px 20px;
+  border: 2px solid #eee;
+  border-radius: 15px;
+  background-color: white;
+}
+
+.container-photos {
+  border: 2px solid #ff8c40;
+  border-radius: 0 20px 20px;
+  padding: 10px;
+  gap: 10px;
+  display: flex;
+  flex-wrap: wrap;
+}
+.container-photos > img {
+  width: 200px;
+  height: 200px;
+  object-fit: contain;
+}
+.photos > .header-title {
+  padding-left: 40px;
+  padding-right: 40px;
+}
+
+.container-score {
+  background-color: #eee;
+  border-radius: 0 20px 20px;
+  border: 3px solid #00538b;
+}
+.container-score {
+  display: flex;
+}
+.info-score {
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  padding: 20px 10px;
+  text-align: center;
+  flex-grow: 1;
+}
+.title-infos-score {
+  background-color: #ff8c40;
+  padding: 10px 15px;
+  border-radius: 50%;
+  color: white;
+  font-weight: bold;
+}
+.content-infos-score {
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  align-items: center;
+  padding-top: 10px;
+}
+.table-recall .content .container-numbers .number {
+  font-size: x-large;
+}
+.content-recall {
+  background-color: #00538b;
+  border-radius: 0 20px 20px 20px;
+}
+.content-recall .container-content-remarketing {
+  margin-right: 10px;
+  margin-top: 10px;
+  margin-bottom: 10px;
+}
+.container-numbers.border-radius {
+  border-radius: 20px;
+}
+.box-gradiente {
+  margin: 20px 0;
+}
+.gradiente {
+  width: 1005;
+  height: 40px;
+  border-radius: 5px;
+  background: rgb(255,141,0);
+  background: linear-gradient(90deg, rgba(0,83,139,1), rgba(255,141,0,1));
+}
+.table-recall .content-recall .footer {
+  padding: 10px;
+}
+
+.gravame-completo .information table tr:nth-child(odd){
+  background: #f5f5f5;
+}
+.gravame-completo .information table td:nth-of-type(odd){
+  font-weight: bold;
+}
+.gravame .information table tr:nth-child(odd){
+  background: #f5f5f5;
+}
+.gravame .information table td:nth-of-type(odd){
+  font-weight: bold;
+}
+.renajud-detalhado .information table tr:nth-child(odd){
+  background: #f5f5f5;
+}
+.renajud-detalhado .information table td:nth-of-type(odd){
+  font-weight: bold;
+}
+
+.certificado-seguro tr, .renajud-restricoes tr, .detalhes-roubo-furto:nth-child(odd){
+  color:rgb(40, 158, 40);
+}
+
+.table-multas {
+  border-radius: 0 20px 20px;
+  border: 2px solid white;
+}
+.table-multas tr:nth-of-type(odd){
+  background: #f5f5f5;
+}
+.table-multas td:nth-of-type(odd){
+  font-weight: bold;
+}
+.detalhes-multas .information .content-multas:first-child .header-title.bg-orange {
+  margin-top: 0;
+}
+
+.alerts-recall {
+  display: flex;
+  justify-content: center;
+  color: white;
+  font-weight: bold;
+}
+.alerts-recall .results span {
+  color: black;
+}
+.ser-quantidade .content-recall .content .container-content-remarketing .information {
+  width: 100%;
+  border-radius: 15px;
+} 
+.ser-quantidade .content-recall .content .container-content-remarketing .information tr:nth-child(odd){
+  background-color: #f5f5f5;
+}
+
+.info-proprietario .information td:nth-of-type(odd){
+  font-weight: bold;
+}
+.info-proprietario .information td:nth-of-type(even){
+  background: #f5f5f5;
+}
+
+.licenciamento .information tr:nth-child(odd) {
+  background-color: #f5f5f5;
+}
+.ipva-nao-inscrito .information tr th, .dividas-ativas .information tr th {
+  color: rgb(40, 158, 40);
+}
+
+.ipva .information table tr:nth-child(odd){
+  background: #f5f5f5;
+}
+.ipva .information td:nth-of-type(odd){
+  font-weight: bold;
+}
+.cheque-sem-fundo .information table tr:nth-child(odd){
+  background: #f5f5f5;
+}
+.cheque-sem-fundo .information td:nth-of-type(odd){
+  font-weight: bold;
+}
+
+.circle-title > span {
+  background-color: orange;
+  border-radius: 50%;
+  color: white;
+  font-weight: bold;
+  width: 30px;
+  height: 30px;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+}
+.moradores .information table tr th {
+  background-color: #f8f8f8f3;
+  font-weight: bold;
+}
+table {
+  border-collapse: collapse;
+  border-spacing: 0;
+}
+.moradores .information table tr:nth-child(even){
+  background-color: #f5f5f5e8;
+}
+.moradores .information table tr td:nth-child(2) {
+  font-weight: bold;
+}
+
+.hist-proprietarios .information table tr:nth-child(odd){
+  background-color: #f5f5f5;
+}
+.hist-proprietarios .information table td:nth-child(odd){
+  font-weight: bold;
+}
+.historico .information table td:first-child {
+  font-weight: bold;
+}
+.historico .information table td:nth-child(6),.historico .information table td:nth-child(7) {
+  text-align: center;
+}
+.historico .information table tr th, .localiza-nome .information table tr th, .localiza-telefone .information table tr th,.pesquisa-previa .information table tr th,
+.partes-processos .information table tr th{
+  background-color: #f5f5f5; 
+  font-weight: bold;
+}
+.pesquisa-previa .information table tr:nth-child(odd){
+  background-color: #f5f5f5e8;
+}
+
+.processos .information table tr td:nth-child(odd){
+  font-weight: bold;
+}
+
+.multas .information table tr td:nth-child(odd){
+  font-weight: bold;
+}
+.multas .information table tr:nth-child(odd){
+  background-color: #f5f5f5;
+}
+.partes-processos .information table tr:nth-child(odd){
+  background-color: #f5f5f5e8;
+}
+
+.dados-cadastrais .information table tr:first-child td:first-child{
+  font-weight: bold;
+  text-transform: uppercase;
+  font-size: medium;
+}
+.dados-cadastrais .information table tr:first-child{
+  background-color: #f5f5f5;
+}
+
+.highlight.green{
+  color: green;
+}
+
+.acoes-trabalhistas .information table tr td:nth-child(odd) {
+  font-weight: bold;
+}
+.acoes-trabalhistas .information table tr:nth-child(odd){
+  background-color: #f5f5f5;
+}
+.localiza .information table tr td:nth-child(odd) {
+  font-weight: bold;
+}
+.localiza .information table tr:nth-child(odd){
+  background-color: #f5f5f5;
+}
+.localiza-cpf-cnpj .information span, .participacao-demografica .information span, .empregador .information span{
+  color: rgb(77, 121, 204);
+  font-weight: bold;
+}
+.infos-socio-demograficas .information table tr:nth-child(odd){
+  background-color: #f5f5f5;
+}
+.pesquisa-previa .information table tr:nth-child(odd) {
+  font-weight: bold;
+}
+.colegas-trabalhos .information span, .moveis .information span {
+  color: rgb(77, 121, 204);
+  font-weight: bold;
+}
+.dividas-ativas .information span, .negativacoes .information span,
+.protestos .information span {
+  color: green;
+  font-weight: bold;
+}
+
+.multa-guia-pagamento .information span {
+  color: green;
+  font-size: medium;
+}
+.boa-pj .information table tr:nth-child(even){
+  background-color: #f5f5f5;
+}
+.boa-pj .information table tr th:nth-child(odd){
+  font-weight: bold;
+}
+.ser-bra .information table tr:nth-child(even){
+  background-color: #f5f5f5;
+}
+.ser-bra .information table tr th:nth-child(odd){
+  font-weight: bold;
+}
+.bra .information span {
+  color: green;
+  font-weight: bold;
+}
+
+.enderecos .information table tr:nth-child(odd){
+  background-color: #f5f5f5;
+}
+.enderecos .information table tr:nth-child(odd) th {
+  font-weight: bold!important;
+}
+.telefones-moveis .information table tr:nth-child(odd){
+  background-color: #f5f5f5;
+}
+.telefones-moveis .information table tr th{
+  font-weight: bold;
+}
+.telefones-fixos .information table tr:nth-child(odd){
+  background-color: #f5f5f5;
+}
+.telefones-fixos .information table tr th{
+  font-weight: bold;
+}
